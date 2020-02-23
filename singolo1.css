@@ -75,9 +75,11 @@ body {
 }
 
 .services {
-  padding: 70px 40px;
+  padding: 70px 40px 45px 40px;
   color: #666d89;
   background: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+  text-align: justify;
 }
 
 .services h1 {
@@ -93,3 +95,29 @@ body {
   line-height: 30px;
   color: #767e9e;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.block{
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0 ; 
+}
+
+.text {
+  padding: 0 16px;
+}
+
+.text p {
+  padding: 10px 0;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.text h1 {
+  font-size: 18px;
+}
+

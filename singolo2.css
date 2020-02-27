@@ -26,6 +26,7 @@ body {
 
 .portfolio-buttons input {
     padding: 5px;
+    margin-right: 5px;
     background: none;
     border-radius: 5px;
     border: 1px solid #666d89;
@@ -37,7 +38,49 @@ body {
     border: 1px solid #dedede;
 }
 
-.portfolio-images{
+.portfolio-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.about-us {
+    padding: 40px 40px;
+    background: #f2f2f2;
+}
+
+.about-us h1 {
+    color: #666d89;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.about-us p {
+    padding: 30px 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+}
+
+.about-us-peoples {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    text-align: justify;
+}
+
+.about-us-peoples div {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.about-us-peoples p {
+    padding: 0;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.about-us-peoples h1 {
+    padding: 10px 0;
+    font-size: 18px;
 }

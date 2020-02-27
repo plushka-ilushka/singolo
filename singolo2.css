@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 1020px;
+    font-family: 'Lato', sans-serif;
+}
+
+.portfolio {
+    padding: 40px 40px;
+    background: #2d303a;
+    color: #666d89;
+}
+
+.portfolio h1 {
+    font-size: 30px;
+}
+
+.portfolio p {
+    padding: 30px 0;
+    font-size: 18px;
+}
+
+.portfolio-buttons input {
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #666d89;
+    color: #767e9e;
+}
+
+.portfolio-buttons input:hover {
+    color: #dedede;
+    border: 1px solid #dedede;
+}
+
+.portfolio-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
